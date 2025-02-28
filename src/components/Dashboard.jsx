@@ -40,6 +40,7 @@ const Dashboard = () => {
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
+        <button id="abc" onClick={() => navigate('/add-movie')}>Add Button</button>
       </div>
     </div>
   );

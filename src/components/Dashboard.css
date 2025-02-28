@@ -13,7 +13,8 @@
 
 .add-movie-button {
   padding: 10px 20px;
-  background-color: #007bff;
+  
+  background-color: #c1c8d0;
   color: white;
   border: none;
   border-radius: 4px;
@@ -28,4 +29,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+}
+#abc{
+  color: white;
+  width: 20%;
+   transform: translate(200%);
+  height: 800%;
+  background-color: red;
 }
